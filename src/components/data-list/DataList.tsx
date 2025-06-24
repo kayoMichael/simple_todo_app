@@ -31,10 +31,10 @@ const DataList = ({ tableData, missingPriority, handleDelete }: Props) => {
         {tableData ? (
           tableData.map((data) => (
             <TableRow key={data.id}>
-              <TableCell>{data.id}</TableCell>
-              <TableCell>{data.name}</TableCell>
-              <TableCell>{data.priority}</TableCell>
-              <TableCell>
+              <TableCell className="w-[100px]">{data.id}</TableCell>
+              <TableCell className="w-[100px]">{data.name}</TableCell>
+              <TableCell className="w-[100px]">{data.priority}</TableCell>
+              <TableCell className="w-[100px]">
                 <Button
                   variant="nonExistant"
                   onClick={() => handleDelete(data.id)}
