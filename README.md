@@ -18,3 +18,41 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Directory Structure
+
+```
+.
+├── README.md
+├── components.json
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   └── vercel.svg
+├── src
+│   ├── app
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── data-list
+│   │   │   └── DataList.tsx
+│   │   ├── dialog
+│   │   │   └── Dialog.tsx
+│   │   └── ui
+│   │       ├── button.tsx
+│   │       ├── dialog.tsx
+│   │       ├── input.tsx
+│   │       ├── label.tsx
+│   │       └── table.tsx
+│   ├── lib
+│   │   └── utils.ts
+│   └── type
+│       └── data.ts
+└── tsconfig.json
+```
